@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+  <h2>
+<b>Welcome to Quiz or Tease?</b>
+&nbsp;<br>
+<p>Click <a href="{{ url_for('logout') }}">here</a> to Sign out</p>
+</h2>
+</div><br><br>
+<div><b>Quizzes</b>
+ {% for quiz in quizzes %}
+    <p><b>Name:</b>&nbsp;{{ quiz.name }}</p>
+    <p><b>About:</b>&nbsp;{{ quiz.about }}</p>
+  {% endfor %}
+</div>
+{% endblock %}

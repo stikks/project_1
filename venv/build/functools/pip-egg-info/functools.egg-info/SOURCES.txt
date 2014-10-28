@@ -1,0 +1,9 @@
+functools.py
+pip-egg-info/functools.egg-info/PKG-INFO
+pip-egg-info/functools.egg-info/SOURCES.txt
+pip-egg-info/functools.egg-info/dependency_links.txt
+pip-egg-info/functools.egg-info/top_level.txt
+src/compose.c
+src/fastcut.c
+src/functools.c
+test/test_functools.py
